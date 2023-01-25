@@ -1,7 +1,19 @@
 <template>
   <div>
-    <h1>Main Page</h1>
-    <h2>{{ $hello('World') }}</h2>
+    <v-container>
+      <v-btn
+        depressed
+        color="primary"
+      >
+        Primary
+      </v-btn>
+      <v-btn
+        depressed
+        color="error"
+      >
+        Error
+      </v-btn>
+    </v-container>
   </div>
 </template>
 
